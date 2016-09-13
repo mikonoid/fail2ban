@@ -2,7 +2,7 @@
 enabled = true
 port = http,https
 filter = http-get-dos
-logpath = /var/log/httpd/httpsd*.log
+logpath = /var/log/apache2/httpsd*.log
 maxretry = 300
 findtime = 300
 #ban for 24 hours
