@@ -7,7 +7,7 @@ cd fail2ban-0.8.14
 python setup.py install
 
 #copy configs and jails
-cd fail2ban
+cd /tmp/fail2ban
 cp jail.local /etc/fail2ban/
 cp http-get-dos.conf /etc/fail2ban/filter.d/
 
