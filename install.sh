@@ -14,4 +14,4 @@ cp http-get-dos.conf /etc/fail2ban/filter.d/
 #cp init script
 cp /tmp/fail2ban-0.8.14/files/redhat-initd /etc/init.d/fail2ban
 
-/etc/init.d/fail2ban star
+/etc/init.d/fail2ban start
